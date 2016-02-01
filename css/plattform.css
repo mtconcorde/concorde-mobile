@@ -122,7 +122,7 @@
 
 /*** Campus Hub Page ***/
 body.pf-template .region div[id*="block-views-campus-hub-page-block"] {margin-bottom: 0; padding: 0 .5em 1em;}
-body.pf-template .region div[id*="block-views-campus-hub-page-block"] .views-container { background: #E3E2E0; min-height: 422px; padding-bottom: 20px;}
+body.pf-template .region div[id*="block-views-campus-hub-page-block"] .views-container { background: #E3E2E0; padding-bottom: 20px;}
 body.pf-template .region div[id*="block-views-campus-hub-page-block"] h2 { font-size: 1.5em; text-transform: uppercase; font-weight: 400;   margin: .7em 0 1em; border-bottom: none; text-align: center;}
 body.pf-template .region div[id*="block-views-campus-hub-page-block"] .views-container { min-height: 445px\9;}
 body.pf-template .region div[id*="block-views-campus-hub-page-block"] ul { padding: 0 1em;}
@@ -327,14 +327,14 @@ body.pf-template.page-node-641 h1 {font-size: 3em; color: #484f54; margin: 0;}
 
 body.pf-template.page-node-749 #content_top > .content > .block {background: transparent;}
 body.pf-template.page-node-749 #content {background: #fff;}
-body.pf-template.page-node-749 #block-system-main header > h1, body.pf-template.page-node-767 #block-system-main header > h1, body.pf-template.page-id-190 #block-system-main header > h1 {color: #484f54; text-align: center;}
+/* body.pf-template.page-node-749 #block-system-main header > h1, body.pf-template.page-node-767 #block-system-main header > h1, body.pf-template.page-id-190 #block-system-main header > h1 {color: #484f54; text-align: center;} */
 body.pf-template.page-node-767 #block-system-main header > h1 { font-size:58px; font-weight:normal; }
 body.pf-template.page-node-767 #block-system-main header > h2 { font-weight:bold; font-size:20px }
 body.pf-template.page-node-767 #block-system-main article p, body.pf-template.page-id-190 #block-system-main article p { font-size:22px; font-weight:normal; }
 
-body.pf-template.page-node-767 #block-system-main article#node-767, body.pf-template.page-id-190 #block-system-main article#node-768 { text-align:center; }
+/* body.pf-template.page-node-767 #block-system-main article#node-767, body.pf-template.page-id-190 #block-system-main article#node-768 { text-align:center; } */
 body.pf-template.page-node-767 #block-block-2460 { text-align:center; font-size:22px; font-weight:normal; }
-.page-id-190 .financial { text-align:center;}
+/* .page-id-190 .financial { text-align:center;} */
 .page-id-190 .financial li { list-style-type:none; }
 .page-id-190 .financial li h5 { text-transform:uppercase; font-weight:bold; font-size:26px; margin-bottom:5px; }
 .page-id-190 .financial li p { margin-bottom: 2em; font-size: 22px; line-height: 27px; }
@@ -813,10 +813,10 @@ body.pf-template .header .content { text-align: center; }
 /*   body.page-node-767 .enterpriseform .field { padding:.2em .5em; }*/
    body.pf-template.page-node-767 #block-system-main article p, body.pf-template.page-id-190 #block-system-main article p { font-size:16px; font-weight:normal; }
    body.page-node-767 #block-block-19 h2, body.page-node-767 #block-block-18 h2, body.page-node-767 #block-block-17 h2 { font-size:1.6em; }
-body.pf-template.page-node-767 #block-system-main article#node-767, body.pf-template.page-id-190 #block-system-main article#node-768 { text-align:center; }
+/* body.pf-template.page-node-767 #block-system-main article#node-767, body.pf-template.page-id-190 #block-system-main article#node-768 { text-align:center; } */
 body.pf-template.page-node-767 #block-block-2460 { text-align:center; font-size:22px; font-weight:normal; }
 .page-id-190 .financial:first-child { margin-bottom:0px; }
-.page-id-190 .financial { text-align:center; margin-top:0px;}
+/* .page-id-190 .financial { text-align:center; margin-top:0px;} */
 .page-id-190 .financial li { list-style-type:none; }
 .page-id-190 .financial li h5 { text-transform:uppercase; font-weight:bold; font-size:21px; margin-bottom:5px; }
 .page-id-190 .financial li p { margin-bottom: 2em; font-size: 16px; line-height: 27px; }
@@ -893,7 +893,7 @@ body.pf-template .block.requestinfo > h3 { font-weight:normal; border-bottom:1px
 	.page-id-190 .subheading { font-size:17px;}
 	body.pf-template.page-id-190 #block-system-main article p { font-size:14px; }
 	.page-id-190 .financial { padding-left:0px; }
-	.page-id-190 .financial { text-align:center;}
+/* 	.page-id-190 .financial { text-align:center;} */
 .page-id-190 .financial li h5 { text-transform: uppercase; font-weight: bold; font-size: 1em; margin-bottom: 5px;}
 .page-id-190 .financial li p { margin-bottom: 2em; font-size: 1em; line-height: 22px; }
 body.page-id-190.pf-template .block.requestinfo > h2 { font-size:1.5em; }

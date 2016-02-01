@@ -11,8 +11,8 @@
 			<div id="block-block-2" class="block block-block buttons">
 				<div class="content">
 				    <ul class="list-unstyled home-hero-links row clearfix">
-					    <li class="col-xs-6"><a class="btn-accent btn-block" href="<?php echo esc_url( home_url( '/' ) ); ?>request-info">Request Info</a></li>
-						<li class="col-xs-6"><a class="btn-accent-alt btn-block" href="<?php echo esc_url( home_url( '/' ) ); ?>apply-online">Apply Online</a></li>
+					    <li class="col-xs-6"><a class="btn-accent btn-block" href="<?php echo esc_url( home_url( '/' ) ); ?>request-info">Request <br> Info</a></li>
+						<li class="col-xs-6"><a class="btn-primary btn-block" href="<?php echo esc_url( home_url( '/' ) ); ?>schedule-tour">Schedule a Tour</a></li>
 					</ul>  
 				</div><!-- content -->
 			</div><!-- block-block-2 -->
