@@ -34,7 +34,7 @@
 	<?php wp_head(); ?>
 	<script src="http://maps.google.com/maps/api/js?key=AIzaSyDiwiiJnlEJWTVtHoC4PML983F8RmcQPXc&sensor=false"></script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">stLight.options({publisher: "70cc964d-75bd-41cc-8700-2134fb9bdb24", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	<script type="text/javascript">stLight.options({publisher: "dr-f076c7f3-b955-4859-a8e9-5b2fb220c67e", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 	
 </head>
 <?php 
@@ -59,7 +59,7 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 								</a>
 							</div><!-- col-4 -->
 							<div class="col-4 text-center">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>apply-online" class="btn-secondary">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>apply-online" class="btn-accent-alt">
 									<span>Apply</span>
 								</a>
 							</div><!-- col-4 -->
@@ -70,14 +70,18 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 					<div class="row clearfix">
 						<div class="col-3 text-center">
 							<?php if( !is_front_page() ) : ?>
-								<b class="gray-btn" onclick="history.go(-1);">Back</b>
+								<b class="mobile-back-btn" onclick="history.go(-1);"><img src="<?php echo content_url(); ?>/img/mobile-back-arrow-icon.svg" alt="Back" ></b>
 							<?php endif; ?>
 						</div><!-- col-2 -->
 						<div class="col-6 text-center">
 							<a href="<?php echo esc_url( home_url() ); ?>" class="logo"><img src="<?php echo content_url(); ?>/img/concorde-logo.jpg" alt="Concorde Logo"></a>
 						</div><!-- col-6 -->
 						<div class="col-3 text-center">
-							<b class="mobile-menu gray-btn">Menu</b>
+							<div class="visible-xs visible-sm pull-right">
+								<div class="mobile-menu-container">
+									<b class="icon-menu mobile-menu"></b>
+								</div><!-- mod-inner2 -->
+							</div><!-- pull-right -->
 						</div><!-- col-2 -->
 					</div><!-- row -->
 				</div><!-- header-inner -->

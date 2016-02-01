@@ -6996,6 +6996,20 @@ body .newland #requestinfo.landing .disclaimer {
 /*WordPress Transition Modifications*/
 /************************************/
 
+.page-template-template-basic-landing .subheading {
+	color: #fff !important;
+}
+
+.mobile-menu-container {
+	padding: 15px 25px 10px;
+}
+
+.mobile-back-btn {
+	font-size: 34px;
+	display: inline-block;
+	padding: 1px;
+}
+
 .video-wrapper iframe {
 	position: absolute;
 	top: 0;
