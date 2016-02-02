@@ -1780,6 +1780,11 @@ a[class^=btn-] {
     height: 1.8em;
     width: 1.8em;
 }
+.icon-logo {
+    background-position: -3.125em -3.125em;
+    height: 4em;
+    width: 14.375em
+}
 .no-svg .icon-logo {
     background-image: url(../../img/logo.png);
     height: 72px;
