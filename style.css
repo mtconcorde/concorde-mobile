@@ -2991,14 +2991,15 @@ footer {
 }
 .blog-post .btn-primary {
     font-size:1.25em;
-    margin:1em 0 0
+    margin: .25em 0 0;
 }
 .blog-pager {
     border-top:1px solid;
     margin-top:1.75em
 }
 .post-date {
-    color:#d21145
+    color:#d21145;
+    margin-bottom: 15px;
 }
 .post-categories a {
     font-size:.875em
