@@ -1407,7 +1407,7 @@ label.placeholder {
 #offscreen-nav img {
 	display: inline-block;
 	vertical-align: middle;
-	max-width: 35px;
+	max-width: 40px;
 }
 
 #offscreen-nav a {
@@ -1443,7 +1443,7 @@ label.placeholder {
 }
 
 #offscreen-nav .nav-action-btns a {
-    padding: 1.5em 1em;
+    padding: 1.25em 1em;
     text-transform: none
 }
 
@@ -1451,8 +1451,12 @@ label.placeholder {
     display: inline-block;
     vertical-align: middle;
     font-size: 1.25em;
-    margin-left: 1em;
+    margin-left: .5em;
     padding-top: 2px;
+}
+
+#offscreen-nav .nav-action-btns a.btn-primary {
+	background: transparent;
 }
 
 #offscreen-nav .mobile-menu {
@@ -2169,6 +2173,7 @@ h6.alt {
 }
 .logo img {
 	max-width: 160px;
+	padding: 3px 0 10px;
 }
 header nav {
     float:right
@@ -6572,7 +6577,6 @@ body .newland #requestinfo.landing .disclaimer {
     font-weight: 700;
     background: #e4e3e0;
     padding: 10px 5px;
-    border-radius: 10px;
     margin: 20px 0;
     line-height: 1.2;
     font-size: 12px;
@@ -6585,7 +6589,7 @@ body .newland #requestinfo.landing .disclaimer {
 }
 
 #home-mobile-nav img {
-	max-width: 50px;
+	max-width: 60px;
 	margin: 5px auto 0;
 }
 

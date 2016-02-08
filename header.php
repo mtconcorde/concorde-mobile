@@ -70,17 +70,19 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 					<div class="row clearfix">
 						<div class="col-3 text-center">
 							<?php if( !is_front_page() ) : ?>
-								<b class="mobile-back-btn" onclick="history.go(-1);"><img src="<?php echo content_url(); ?>/img/mobile-back-arrow-icon.svg" alt="Back" ></b>
+							<div class="mobile-menu-container">
+								<img class="mobile-back-btn" onclick="history.go(-1);" src="<?php echo content_url(); ?>/img/back-icon.png" alt="Back" >
+							</div><!-- mobile-menu-container -->
 							<?php endif; ?>
 						</div><!-- col-2 -->
 						<div class="col-6 text-center">
-							<a href="<?php echo esc_url( home_url() ); ?>" class="logo"><img src="<?php echo content_url(); ?>/img/concorde-logo.jpg" alt="Concorde Logo"></a>
+							<a href="<?php echo esc_url( home_url() ); ?>" class="logo"><img src="<?php echo content_url(); ?>/img/logo.png" alt="Concorde Logo"></a>
 						</div><!-- col-6 -->
 						<div class="col-3 text-center">
 							<div class="visible-xs visible-sm pull-right">
 								<div class="mobile-menu-container">
-									<b class="icon-menu mobile-menu"></b>
-								</div><!-- mod-inner2 -->
+									<img class="mobile-menu" src="<?php echo content_url(); ?>/img/menu-icon.png" alt="Concorde Menu">
+								</div><!-- mobile-menu-container -->
 							</div><!-- pull-right -->
 						</div><!-- col-2 -->
 					</div><!-- row -->
@@ -92,27 +94,27 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 			<nav id="offscreen-nav">
 				<div class="nav-action-btns">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>program" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-cap-white.png" alt="Concorde Programs">
+						<img src="<?php echo content_url(); ?>/img/programs-icon-nav.png" alt="Concorde Programs">
 						<span>Programs</span>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>campus" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-globe-white.png" alt="Concorde Campuses">
+						<img src="<?php echo content_url(); ?>/img/campuses-icon-nav.png" alt="Concorde Campuses">
 						<span>Campuses</span>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>financial-aid" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-financial-aid-white.png" alt="Concorde Financial Aid">
+						<img src="<?php echo content_url(); ?>/img/financialaid-icon-nav.png" alt="Concorde Financial Aid">
 						<span>Financial Aid</span>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>accreditation" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-accreditation-white.png" alt="Concorde Accreditation">
+						<img src="<?php echo content_url(); ?>/img/accreditation-icon-nav.png" alt="Concorde Accreditation">
 						<span>Accreditation</span>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>request-info" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-info-white.png" alt="Concorde Request Info">
+						<img src="<?php echo content_url(); ?>/img/requestinfo-icon-nav.png" alt="Concorde Request Info">
 						<span>Request Info</span>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>faq" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/icon-question-mark-white.png" alt="Concorde FAQ">
+						<img src="<?php echo content_url(); ?>/img/faq-icon-nav.png" alt="Concorde FAQ">
 						<span>FAQ</span>
 					</a>
 				</div><!-- nav-action-btns -->
