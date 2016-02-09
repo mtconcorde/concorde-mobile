@@ -126,6 +126,9 @@ function concorde_header_scripts()
         wp_register_script('readmore', get_template_directory_uri() . '/js/vendor/readmore.min.js', array('jquery'), '1.0.0'); // Script
         wp_enqueue_script('readmore'); // Enqueue it!
         
+        wp_register_script('jqbrowser', get_template_directory_uri() . '/js/plattform/jqbrowser.js', array('jquery'), '1.0.0'); // Script
+        wp_enqueue_script('jqbrowser'); // Enqueue it!
+                
         wp_register_script('script', get_template_directory_uri() . '/js/plattform/script.js', array('jquery'), '1.0.0'); // Script
         wp_enqueue_script('script'); // Enqueue it!
 	    
