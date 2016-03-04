@@ -1443,8 +1443,13 @@ label.placeholder {
 }
 
 #offscreen-nav .nav-action-btns a {
-    padding: 1.25em 1em;
-    text-transform: none
+    padding: 1em .75em;
+    text-transform: none;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 #offscreen-nav .nav-action-btns a span {
@@ -1453,6 +1458,40 @@ label.placeholder {
     font-size: 1.25em;
     margin-left: .5em;
     padding-top: 2px;
+}
+
+#offscreen-nav .nav-action-btns li a:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 100%;
+    width: 40px;
+    height: 35px;
+    margin-right: .75em;
+}
+
+.programs-icon-nav a:before {
+	background: url('../../img/programs-icon-nav.png') no-repeat;
+}
+
+.campuses-icon-nav a:before {
+	background: url('../../img/campuses-icon-nav.png') no-repeat;
+}
+
+.financialaid-icon-nav a:before {
+	background: url('../../img/financialaid-icon-nav.png') no-repeat;
+}
+
+.accreditation-icon-nav a:before {
+	background: url('../../img/accreditation-icon-nav.png') no-repeat;
+}
+
+.requestinfo-icon-nav a:before {
+	background: url('../../img/requestinfo-icon-nav.png') no-repeat;
+}
+
+.faq-icon-nav a:before {
+	background: url('../../img/faq-icon-nav.png') no-repeat;
 }
 
 #offscreen-nav .nav-action-btns a.btn-primary {

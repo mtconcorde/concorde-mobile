@@ -93,30 +93,7 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 			</header>
 			<nav id="offscreen-nav">
 				<div class="nav-action-btns">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>program" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/programs-icon-nav.png" alt="Concorde Programs">
-						<span>Programs</span>
-					</a>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>campus" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/campuses-icon-nav.png" alt="Concorde Campuses">
-						<span>Campuses</span>
-					</a>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>financial-aid" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/financialaid-icon-nav.png" alt="Concorde Financial Aid">
-						<span>Financial Aid</span>
-					</a>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>accreditation" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/accreditation-icon-nav.png" alt="Concorde Accreditation">
-						<span>Accreditation</span>
-					</a>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>request-info" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/requestinfo-icon-nav.png" alt="Concorde Request Info">
-						<span>Request Info</span>
-					</a>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>faq" class="btn-primary clearfix">
-						<img src="<?php echo content_url(); ?>/img/faq-icon-nav.png" alt="Concorde FAQ">
-						<span>FAQ</span>
-					</a>
+					<?php mobile_theme_nav(); ?>
 				</div><!-- nav-action-btns -->
 			</nav>
 			<div id="upper" class="region">
